@@ -63,7 +63,7 @@ namespace Framework
         public static void Close()
         {
             _webDriver.Close();//close current tab
-            _webDriver.Close();//close all tabs
+            _webDriver.Quit();//close all tabs
         }
 
         //public static void GoTo(string url)
