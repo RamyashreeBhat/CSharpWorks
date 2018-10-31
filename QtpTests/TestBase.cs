@@ -18,6 +18,7 @@ namespace QtpTests
         [TestCleanup]
         public void CleanUp()
         {
+        //space added here
           Browser.Close();
         }
 
