@@ -39,7 +39,7 @@ namespace Framework
         {
 
             bool present = false;
-            //_webDriver.Manage().Timeouts().ImplicitWait(TimeSpan.FromSeconds(10));//
+            _webDriver.Manage().Timeouts().ImplicitWait(TimeSpan.FromSeconds(10));//
 
             try
             {
